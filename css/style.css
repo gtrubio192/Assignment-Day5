@@ -1,0 +1,254 @@
+body {
+  font-family: arial narrow; }
+
+header {
+  background: blue;
+  background-image: url("http://corural.com/wp-content/uploads/2014/10/Hawaii-Beach-Waves-Sunset-Surf.jpg");
+  background-size: 100% 100%;
+  height: 190px; }
+
+.header {
+  text-align: center;
+  font-family: arial narrow;
+  height: 190px; }
+
+.about-search {
+  margin: 0 auto;
+  text-align: center;
+  font-family: oswald; }
+
+.about-search a {
+  color: #42526C; }
+
+.about {
+  margin: 20px 10px 20px 10px;
+  display: inline-block; }
+
+.wave {
+  margin: 0 auto;
+  text-align: center;
+  width: 43px;
+  height: 40px;
+  background: gray;
+  margin-bottom: 18px;
+  background-image: url("http://www.bayshoresolutions.com/userfiles/images/Bayshore/Icons/BSS-WaveIcon.jpg");
+  background-size: 100% 100%; }
+
+.layout {
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.layout h1 {
+  font-size: 60px;
+  text-align: left;
+  color: #42526C;
+  padding-top: 60px;
+  font-family: OSWALD;
+  font-style: bold;
+  margin-right: 40px;
+  line-height: 72px; }
+
+.layout h5 {
+  text-decoration: underline;
+  color: #42526C;
+  display: inline-block;
+  padding-top: 10px;
+  font-family: ASAP; }
+
+.body1 {
+  padding-top: 30px;
+  background: white;
+  line-height: 25px;
+  font-family: ASAP;
+  color: gray; }
+
+.body1 a {
+  text-decoration: underline;
+  color: silver; }
+
+.pullout {
+  color: #539DC2;
+  font-size: 23px;
+  padding-left: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-left: 2px solid gray;
+  line-height: 30px; }
+
+.body2 {
+  background: white;
+  line-height: 25px;
+  font-family: ASAP;
+  color: gray; }
+
+.body2 a {
+  text-decoration: underline;
+  color: #539DC2; }
+
+.body3 {
+  padding-top: 30px;
+  background: white;
+  line-height: 25px;
+  font-family: ASAP;
+  color: gray; }
+
+.buttons {
+  margin-top: 10px; }
+
+.button-1 {
+  width: 45px;
+  height: 45px;
+  background: gray;
+  display: inline-block;
+  margin-right: 10px; }
+
+.dolphin {
+  margin-top: 100px;
+  text-align: center; }
+
+.dolphin img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%; }
+
+.annie {
+  color: #539DC2;
+  font-size: 23px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 10px; }
+
+.social-media {
+  color: silver;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 90px; }
+
+.post-images {
+  text-align: center;
+  height: 310px;
+  padding-right: 15px;
+  background-size: 100% 100%; }
+
+.under-images {
+  text-align: center;
+  height: 310px;
+  padding-right: 15px;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  position: relative; }
+
+.under-images p {
+  font-family: oswald;
+  display: inline-block;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  font-size: 30px;
+  text-align: left;
+  color: white; }
+
+#kayak {
+  background-image: url("http://www.paddlersrealm.com/pb/wp_9297ff2d/images/img716491fc0ab4bb82.JPG"); }
+
+#dolphin1 {
+  background-image: url("http://ladaray.files.wordpress.com/2014/01/bottlenose-dolphins.jpg"); }
+
+#kayak1 {
+  background-image: url("https://alreadynotpublished.files.wordpress.com/2012/03/lava_surfing_by_devinshadowv.jpg"); }
+
+#dog {
+  background-image: url("http://www.watchcartoononline.com/thumbs/Superjail-Season-2-Episode-3-Lord-Stingray-Crash-Party.jpg"); }
+
+.ad {
+  text-decoration: underline;
+  color: silver;
+  text-align: right;
+  padding-top: 10px;
+  font-family: ASAP;
+  font-style: bold;
+  font-size: 20px;
+  padding-bottom: 75px;
+  border-bottom: 2px silver solid; }
+
+.popular {
+  text-align: center;
+  font-family: OSWALD;
+  font-size: 42px;
+  color: #42526C;
+  padding-top: 75px;
+  padding-bottom: 30px; }
+
+.iron-yard {
+  display: inline-block; }
+
+.reserved {
+  font-size: 20px;
+  width: 230px;
+  height: 40px;
+  margin: 0 auto; }
+
+.reserved p {
+  line-height: 30px; }
+
+footer {
+  background: #0B2070;
+  color: grey;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 65px;
+  padding-top: 50px;
+  height: 270px; }
+  footer .iron-yard-image {
+    margin: 0 auto;
+    width: 55px;
+    height: 60px;
+    background: gray;
+    color: white;
+    text-align: center;
+    background-image: url("http://www.medgadget.com/wp-content/uploads/2013/05/Iron-Yard.png");
+    background-size: 100% 100%;
+    margin-bottom: 15px; }
+  footer .nav-items {
+    width: 450px;
+    height: 40px;
+    margin: 0 auto;
+    padding-bottom: 60px; }
+  footer .nav-items a {
+    font-size: 20px;
+    display: inline-block;
+    width: 25%;
+    padding-bottom: 15px;
+    text-align: center; }
+
+a {
+  color: gray;
+  text-decoration: none; }
+
+.header h1 {
+  font-size: 35px;
+  color: white;
+  font-family: oswald; }
+
+.header h5 {
+  font-size: 18px;
+  font-family: oswald;
+  color: #42526C;
+  display: inline-block;
+  margin-top: 8px; }
+
+@media (min-width: 768px) {
+  .nav-items {
+    padding: 40px 160px 40px 40px;
+    float: right; }
+
+  .iron-yard {
+    float: left; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,251 @@
+body{
+	color:#777;
+}
+.hidden{
+	position: relative;
+	padding-left: 0;
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.main{
+	font-family: sans-serif;
+}
+.header{
+	margin: 0;
+	color: #333;
+	text-align: center;
+	padding: 2.5em 2em 0;
+	border-bottom: 1px solid #eee;
+}
+.header h1{
+	font-weight: 300;
+	margin-top: 0.2em 0;
+	font-size: 3em;
+}
+h1{
+	display: block;
+	-webkit-margin-before: 0.27em;
+	-webkit-margin-after: 0.27em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+.header h2{
+	font-weight: 300;
+	color: #ccc;
+	margin-top: 0;
+	padding: 0;
+}
+h2{
+	display: block;
+	font-size: 1.5em;
+	margin: .83em 0;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+.content{
+	margin: 0 auto;
+	padding: 0 2em;
+	max-width: 800px;
+	margin-bottom: 50px;
+	line-height: 1.6em;
+	font-family: sans-serif;
+}
+.content-subhead{
+	/*margin-top: 50px;*/
+	/*border: 1px solid #eee;*/
+	height: 25px;
+	widows: auto ;
+	font-size: 1.5em
+	font-weight:300;
+	margin: 50px 0 20px 0;
+	line-height: 1.6em;
+	font-family: sans-serif;
+	margin: 50px 0 20px 0;
+	color:#888;
+}
+/**/
+p {
+	/*margin: 16px;*/
+/*	border:1px solid #eee;
+*/	font-family: sans-serif;
+	display: block;
+	margin: 1em 0;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+img{
+	border:0;
+}
+/*Image wrapper*/
+.pure{
+	letter-spacing: -.31em;
+	text-rendering: optimizespeed;
+	font-family: FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+	display: -webkit-flex;
+	-webkit-flex-flow: row wrap;
+}
+/*Individual image div class*/
+.pure-img{
+	width: 25%;
+}
+.pure-img-responsive{
+	max-width: 100%;
+	height: auto;
+}
+
+.stuff{
+	position: fixed;
+	top:0;
+	left: 0;
+	/*display: block;*/
+	/*background: #000;*/
+	background: rgba(0,0,0,0.7);
+	z-index: 10;
+	width: 52px;
+	height: 44px;
+	/*padding: 2.1em 1.6em;*/
+}
+	.stuff:hover,
+	.stuff:focus{
+		background: #000;
+	}
+	.stuff div{
+		position: relative;
+		display:block;
+		margin:0 auto;
+	}
+	.stuff div,
+    .stuff div:before,
+    .stuff div:after {
+        background-color: #fff;
+        width: 25px;
+        height: 0.2em;
+    }
+        .stuff div:before,
+        .stuff div:after {
+            position: absolute;
+            margin-top: -0.6em;
+            content: " ";
+        }
+
+        .stuff div:after {
+            margin-top: 0.6em;
+        }
+
+.wrapper{
+	padding: 0 32em;
+}
+
+.title{
+	border-bottom: 1px solid #eee;
+	color:#333;
+	padding: 2.5em 2em 0;
+	text-align: center;
+	font-family: sans-serif;
+	margin:0;
+}
+.company{
+	padding: .6em .6em .6em .6em;
+    background: #1f8dd6;
+    color: white;
+    font-size: 110%;
+    margin: 0;
+}
+/* white font not working*/
+/*.company a{
+	color:white;
+}*/
+/* BLUE NOT WORKING*/
+/*.hidden ~ .services li{
+    color: #fff;
+    z-index: 15;
+}*/
+
+.hidden{
+	margin-left: -150px;
+	width: 150px;
+	position: fixed;
+	top:0;
+	bottom: 0;
+    overflow-y: auto;
+    background-color: #191818;
+    color: white;
+    -webkit-overflow-scrolling: touch;
+}
+	.hidden li{
+		padding: .6em .6em .6em .6em;
+	}
+	.hidden li:hover,
+	.hidden li:focus{
+        background: #333;
+
+	}
+	.hidden a{
+		color: #999;
+		border:none;
+		padding: 0.6em 0 0.6em 0.6em;
+		text-decoration: none;
+		font-family: sans-serif;
+	}
+.company a{
+	color:white;
+}
+.services{
+    background: #1f8dd6;
+}
+	.services a{
+		color:white;
+	}
+	.services:hover,
+	.services:focus{
+		background: #333;
+	}
+	
+/* CSS for medium devices ≥768px */
+@media (min-width: 768px) {
+	.header,
+    .content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #layout {
+        padding-left: 150px; /* left col width "#menu" */
+        left: 0;
+    }
+
+    .stuff{
+    	width: 150px;
+		height: 100%;
+		background: #000;
+		margin-left: -150px;
+    }
+	.stuff:hover,
+	.stuff:focus{
+		background: #000;
+	}
+    .sidebar{
+    	width: 150px;
+		height: 100%;
+		background: #000;
+    }
+	.sidebar:hover,
+	.sidebar:focus{
+		background: #000;
+	}
+    .menu-link {
+        position: fixed;
+        left: 150px;
+        display: none;
+    }
+
+
+
+}
